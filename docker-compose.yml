@@ -1,0 +1,50 @@
+version: '3'
+
+services:
+  php:
+    build:
+      context: .
+      dockerfile: docker/php.dockerfile
+    ports:
+      - "8080:80"
+    depends_on:
+      - mysql
+    volumes:
+      - './app:/var/www/html'
+    networks:
+      - sail3-networks
+
+  mysql:
+    build:
+      context: .
+      dockerfile: docker/mysql.dockerfile
+    ports:
+      - "3306:3306"
+    volumes:
+      - './db:/var/lib/mysql'
+    networks:
+      - sail3-networks
+
+  phpmyadmin:
+    depends_on:
+      - mysql
+    image: phpmyadmin/phpmyadmin
+    ports:
+      - "8081:80"
+    environment:
+      PMA_HOST: mysql
+      PMA_ARBITRARY: 1
+      MYSQL_ROOT_PASSWORD: root
+    networks:
+      - sail3-networks
+
+networks:
+  sail3-networks:
+    driver: bridge
+
+volumes:
+  app:
+    driver: local
+  db:
+    driver: local
+
