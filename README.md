@@ -2,7 +2,7 @@
 
 ## Installation in local environment using Docker
 1. Clone the <b>repo</b>
-2. Navigate to the root dir and type `cp .env.example .env`
+2. Navigate to the `/app`, the root of Laravel dir and type `cp .env.example .env`
 3. Configure the `.env` file by providing the AI API KEYS, 
     - Google Gemini AI - `GEMINI_AI_API_KEY=`
     - Stable Diffusion AI - `STABILITY_AI_API_KEY=`
