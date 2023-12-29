@@ -1,10 +1,17 @@
-# Containerized Laravel Application on Apache server
+# Konvey Backend - Take Home Assessment
 
-## Installation in local
+## Installation in local environment using Docker
 1. Clone the <b>repo</b>
-2. Change the configuration
-3. Build the images by running: <b>docker-compose build</b>
-4. Start the containers: <b>docker-compose up -d</b>
+2. Type `cp .env.example .env`
+3. Configure the `.env` file by providing the AI API KEYS, 
+    - Google Gemini AI - `GEMINI_AI_API_KEY=`
+    - Stable Diffusion AI - `STABILITY_AI_API_KEY=`
+4. Navigate to root directory and run the following commands:
+    - Build the images by running: `docker-compose build`
+    - Start the containers: `docker-compose up -d`
+5. 
+6. 
 
-## Executing Artisan command in container:
-- $ docker-compose exec service-name php artisan migrate:status
+## Screenshorts:
+- ![A short story of northan Nigeria.]('/app/public/assets/images/a-short-story-of-north.png')
+
