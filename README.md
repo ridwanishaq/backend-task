@@ -2,7 +2,7 @@
 
 ## Installation in local environment using Docker
 1. Clone the <b>repo</b>
-2. Type `cp .env.example .env`
+2. Navigate to the root dir and type `cp .env.example .env`
 3. Configure the `.env` file by providing the AI API KEYS, 
     - Google Gemini AI - `GEMINI_AI_API_KEY=`
     - Stable Diffusion AI - `STABILITY_AI_API_KEY=`
@@ -13,5 +13,9 @@
 6. 
 
 ## Screenshorts:
-- ![A short story of northan Nigeria.]('/app/public/assets/images/a-short-story-of-north.png')
+> This is the full example of prompt (Text & Image) both of which generate from Google Gemini AI & Stable Diffusion:
+- ![A short story of northan Nigeria.](https://raw.githubusercontent.com/ridwanishaq/backend-task/master/app/public/assets/images/a-short-story-of-north.png)
+
+> This the serialized output from Gemini AI (before implementing the Stable Diffusion):
+- ![A short history of computer.](https://raw.githubusercontent.com/ridwanishaq/backend-task/master/app/public/assets/images/a-short-history-of-computer.png)
 
