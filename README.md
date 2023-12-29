@@ -14,8 +14,12 @@
 
 ## Screenshorts:
 > This is the full example of prompt (Text & Image) both of which generate from Google Gemini AI & Stable Diffusion:
-- ![A short story of northan Nigeria.](https://raw.githubusercontent.com/ridwanishaq/backend-task/master/app/public/assets/images/a-short-story-of-north.png)
+- ![A short story of northan Nigeria.](https://raw.githubusercontent.com/ridwanishaq/backend-task/master/app/public/assets/images/north.png)
 
 > This the serialized output from Gemini AI (before implementing the Stable Diffusion):
-- ![A short history of computer.](https://raw.githubusercontent.com/ridwanishaq/backend-task/master/app/public/assets/images/a-short-history-of-computer.png)
+- ![A short history of computer.](https://raw.githubusercontent.com/ridwanishaq/backend-task/master/app/public/assets/images/computer1.png)
+
+- ![A short history of computer.](https://raw.githubusercontent.com/ridwanishaq/backend-task/master/app/public/assets/images/computer2.png)
+
+- ![A short history of computer.](https://raw.githubusercontent.com/ridwanishaq/backend-task/master/app/public/assets/images/computer3.png)
 
